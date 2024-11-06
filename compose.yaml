@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+    networks:
+      - test-networks
+    ports:
+      - 80:80
+    volumes:
+      - test:/test
+
+networks:
+  test-networks:
+volumes:
+  test:
