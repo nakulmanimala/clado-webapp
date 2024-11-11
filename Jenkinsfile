@@ -15,6 +15,7 @@ pipeline {
 				sh '''#!/bin/bash -x
 pwd
 ls -al
+env
 				'''
 			}
 
