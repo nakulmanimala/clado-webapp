@@ -15,7 +15,6 @@ pipeline {
 				sh '''#!/bin/bash -x
 pwd
 ls -al
-touch abcd.txt
 				'''
 			}
 
