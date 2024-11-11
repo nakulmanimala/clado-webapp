@@ -15,7 +15,7 @@ pipeline {
 				sh '''#!/bin/bash -x
 pwd
 ls -al
-env
+echo "Building docker image with tg $gitlabBranch"
 				'''
 			}
 
