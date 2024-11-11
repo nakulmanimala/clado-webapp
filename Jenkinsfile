@@ -16,7 +16,7 @@ pipeline {
 pwd
 ls -al
 tag = `echo "$gitlabBranch" | cut -d'/' -f2`
-echo "Building docker image with tg $gitlabBranch"
+echo "Building docker image with tg $tag"
 				'''
 			}
 
